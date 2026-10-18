@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Peak Sports Academy client-review website prototype.">
+  <title>Peak Sports Academy | Prototype</title>
+  <link rel="icon" href="assets/psa-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="demo-bar" role="note">
+    <span class="demo-dot" aria-hidden="true"></span>
+    Client-review prototype — use dummy information and sample documents only
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" data-route="home" aria-label="Peak Sports Academy home">
+      <img src="assets/psa-logo.png" alt="Peak Sports Academy">
+    </a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <a href="#programmes" data-route="programmes">Programmes</a>
+      <a href="#login" data-route="login" id="login-nav-link">Login</a>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="page is-active" id="page-home" data-page="home">
+      <div class="hero shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>01</span> Cricket coaching in Abu Dhabi</p>
+          <h1>Find your rhythm.<br><em>Build your game.</em></h1>
+          <p class="hero-lede">Explore the current weekday and weekend kids’ batches, then complete a simple prototype registration using dummy details.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#programmes" data-route="programmes">Explore programmes <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#register" data-route="register">Open registration <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta" aria-label="Programme overview">
+            <div><strong>4–18</strong><span>Current age range*</span></div>
+            <div><strong>2</strong><span>Batch options</span></div>
+            <div><strong>Abu Dhabi</strong><span>Training venue</span></div>
+          </div>
+          <p class="source-note">*Age range varies by batch. See programme details.</p>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/huddle.webp" alt="A cricket coach speaking with a group of young players at sunset">
+          <div class="hero-card">
+            <span class="hero-card-label">Next step</span>
+            <strong>Choose a batch</strong>
+            <a href="#programmes" data-route="programmes" aria-label="See the current programme options">View schedule <span aria-hidden="true">→</span></a>
+          </div>
+          <span class="hero-number" aria-hidden="true">PSA</span>
+        </div>
+      </div>
+
+      <section class="venue-strip">
+        <div class="shell venue-strip-inner">
+          <p class="eyebrow light"><span>Venue</span> Current training location</p>
+          <p>Abu Dhabi University Ground, Dreams Cricket Ground, near Mahawi, Al Ain Road.</p>
+        </div>
+      </section>
+
+      <section class="section shell" aria-labelledby="home-programmes-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span>02</span> Current programme options</p>
+            <h2 id="home-programmes-title">Training that fits the week.</h2>
+          </div>
+          <a class="text-link" href="#programmes" data-route="programmes">Compare full schedules <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="programme-grid">
+          <article class="programme-card programme-card-red">
+            <div class="programme-index">01</div>
+            <p class="card-kicker">Kids’ batch</p>
+            <h3>Weekday Batch</h3>
+            <p class="programme-age">Ages 4–18 years</p>
+            <dl>
+              <div><dt>Days</dt><dd>Monday, Tuesday & Thursday</dd></div>
+              <div><dt>Time</dt><dd>6:00 pm–8:00 pm</dd></div>
+              <div><dt>Fees</dt><dd>Registration AED 150 · Monthly AED 450</dd></div>
+            </dl>
+            <button class="button button-light" type="button" data-register-programme="weekday">Register for weekday <span aria-hidden="true">→</span></button>
+          </article>
+          <article class="programme-card programme-card-blue">
+            <div class="programme-index">02</div>
+            <p class="card-kicker">Kids’ batch</p>
+            <h3>Weekend Batch</h3>
+            <p class="programme-age">Ages 4–12 years</p>
+            <dl>
+              <div><dt>Days</dt><dd>Friday, Saturday & Sunday</dd></div>
+              <div><dt>Time</dt><dd>Fri 6:00 pm–8:00 pm · Sat/Sun 7:00 am–9:00 am</dd></div>
+              <div><dt>Fees</dt><dd>Registration AED 150 · Monthly AED 500</dd></div>
+            </dl>
+            <button class="button button-light" type="button" data-register-programme="weekend">Register for weekend <span aria-hidden="true">→</span></button>
+          </article>
+        </div>
+      </section>
+
+      <section class="story-section">
+        <div class="shell story-grid">
+          <div class="story-image">
+            <img src="assets/hero.webp" alt="A cricket coach leading a sunset training session with young players">
+            <span class="image-caption">Coaching session · supplied academy image</span>
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow light"><span>03</span> The registration journey</p>
+            <h2>One clear path from schedule to registration.</h2>
+            <p>Select a current batch, add as much or as little dummy information as you need, and receive a test reference that can be reviewed in the demonstration Admin area.</p>
+            <ol class="steps-list">
+              <li><span>01</span><div><strong>Choose</strong><small>Compare weekday and weekend schedules.</small></div></li>
+              <li><span>02</span><div><strong>Register</strong><small>Every registration field and upload is optional.</small></div></li>
+              <li><span>03</span><div><strong>Review</strong><small>Sign in to the demo Admin area to inspect the record.</small></div></li>
+            </ol>
+            <a class="button button-outline-light" href="#register" data-route="register">Start a test registration <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell photo-story" aria-labelledby="practice-title">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow"><span>04</span> On the field</p>
+            <h2 id="practice-title">Practice in motion.</h2>
+          </div>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo-tall"><img src="assets/batter.webp" alt="A young cricketer practising batting"><figcaption>Batting practice</figcaption></figure>
+          <figure class="photo-wide"><img src="assets/training.webp" alt="Young players practising with training bats"><figcaption>Training drill</figcaption></figure>
+          <div class="photo-cta">
+            <p class="eyebrow light"><span>Ready?</span> Prototype registration</p>
+            <h3>See the complete visitor-to-Admin journey.</h3>
+            <a class="button button-light" href="#register" data-route="register">Open registration <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="page" id="page-programmes" data-page="programmes" hidden>
+      <div class="page-hero page-hero-programmes">
+        <div class="shell">
+          <p class="eyebrow light"><span>Programmes</span> Source-based prototype content</p>
+          <h1>Choose your training rhythm.</h1>
+          <p>Two current kids’ batch options are available in the supplied schedule.</p>
+        </div>
+      </div>
+      <div class="shell programmes-detail">
+        <aside class="location-card">
+          <span class="mini-label">Training location</span>
+          <h2>Dreams Cricket Ground</h2>
+          <p>Abu Dhabi University Ground, near Mahawi, Al Ain Road.</p>
+          <div class="location-marker" aria-hidden="true"><span></span></div>
+        </aside>
+        <div class="programme-list">
+          <article class="programme-row">
+            <div class="row-number">01</div>
+            <div class="row-main">
+              <p class="card-kicker">Kids’ batch · Ages 4–18</p>
+              <h2>Weekday Batch</h2>
+              <div class="schedule-block">
+                <div><span>Days</span><strong>Mon · Tue · Thu</strong></div>
+                <div><span>Time</span><strong>6:00 pm–8:00 pm</strong></div>
+                <div><span>Registration fee</span><strong>AED 150</strong></div>
+                <div><span>Monthly fee</span><strong>AED 450</strong></div>
+              </div>
+              <button class="button button-primary" type="button" data-register-programme="weekday">Choose weekday <span aria-hidden="true">→</span></button>
+            </div>
+            <img src="assets/hero.webp" alt="Coach leading a cricket training session">
+          </article>
+          <article class="programme-row">
+            <div class="row-number">02</div>
+            <div class="row-main">
+              <p class="card-kicker">Kids’ batch · Ages 4–12</p>
+              <h2>Weekend Batch</h2>
+              <div class="schedule-block">
+                <div><span>Friday</span><strong>6:00 pm–8:00 pm</strong></div>
+                <div><span>Saturday & Sunday</span><strong>7:00 am–9:00 am</strong></div>
+                <div><span>Registration fee</span><strong>AED 150</strong></div>
+                <div><span>Monthly fee</span><strong>AED 500</strong></div>
+              </div>
+              <button class="button button-primary" type="button" data-register-programme="weekend">Choose weekend <span aria-hidden="true">→</span></button>
+            </div>
+            <img src="assets/huddle.webp" alt="Young players listening during a cricket coaching session">
+          </article>
+          <div class="content-note">
+            <strong>Prototype source note</strong>
+            <p>Weekday Batch and Weekend Batch are the academy’s only two programmes for this prototype, as confirmed by the project owner. Schedules, ages, venue, and fee figures come from the supplied batch-timings file; fees are shown in UAE dirhams (AED). Availability and production enrollment rules are not yet confirmed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page form-page" id="page-register" data-page="register" hidden>
+      <div class="form-shell shell">
+        <div class="form-intro">
+          <p class="eyebrow"><span>Registration</span> Client-review prototype</p>
+          <h1>Player registration</h1>
+          <p>Complete any fields you want to demonstrate. Every field and upload is optional, including a completely blank submission.</p>
+          <div class="privacy-note" role="note">
+            <strong>Use dummy data only</strong>
+            <p>Selected files stay on this device and are not uploaded. Test records remain in this browser until an Admin uses Reset test data.</p>
+          </div>
+        </div>
+
+        <form id="registration-form" novalidate>
+          <section class="form-section" aria-labelledby="section-programme">
+            <div class="form-section-heading"><span>01</span><div><h2 id="section-programme">Programme</h2><p>Choose a batch or leave it unselected.</p></div></div>
+            <div class="field-grid">
+              <label class="field field-full">Batch option <span>Optional</span>
+                <select name="programme" id="programme-select">
+                  <option value="">No batch selected</option>
+                  <option value="weekday">Weekday Batch · Ages 4–18</option>
+                  <option value="weekend">Weekend Batch · Ages 4–12</option>
+                </select>
+              </label>
+            </div>
+          </section>
+
+          <section class="form-section" aria-labelledby="section-player">
+            <div class="form-section-heading"><span>02</span><div><h2 id="section-player">Player information</h2><p>Fields follow the supplied paper application.</p></div></div>
+            <div class="field-grid">
+              <label class="field field-full">Full name <span>Optional</span><input name="fullName" type="text" autocomplete="off"></label>
+              <label class="field">Nickname <span>Optional</span><input name="nickname" type="text" autocomplete="off"></label>
+              <fieldset class="field choice-field"><legend>Gender <span>Optional</span></legend><label><input type="radio" name="gender" value="Male"> Male</label><label><input type="radio" name="gender" value="Female"> Female</label></fieldset>
+              <label class="field">Age <span>Automatic</span><input name="age" type="number" min="0" inputmode="numeric" readonly aria-readonly="true"><small>Calculated from Date of Birth.</small></label>
+              <label class="field">Date of Birth <span>Optional</span><input name="dateOfBirth" type="date"><small>Entering or changing this date updates Age automatically.</small></label>
+              <label class="field">Nationality <span>Optional</span><input name="nationality" type="text" autocomplete="off"></label>
+              <label class="field">Email <span>Optional</span><input name="email" type="text" inputmode="email" autocomplete="off"></label>
+              <label class="field">Parent/Guardian mobile <span>Optional</span><input name="phone1" type="tel" autocomplete="off"><small>Primary contact number.</small></label>
+              <label class="field">Alternate/Emergency contact <span>Optional</span><input name="phone2" type="tel" autocomplete="off"><small>Secondary contact number.</small></label>
+              <label class="field">Height (cm) <span>Optional</span><input name="height" type="number" min="0" inputmode="decimal"></label>
+              <label class="field">Weight (kg) <span>Optional</span><input name="weight" type="number" min="0" inputmode="decimal"></label>
+              <label class="field">Blood group <span>Optional</span><input name="bloodGroup" type="text" autocomplete="off"></label>
+              <label class="field field-full">Name of school <span>Optional</span><input name="school" type="text" autocomplete="off"></label>
+              <fieldset class="field choice-field field-full"><legend>Have you received cricket coaching before? <span>Optional</span></legend><label><input type="radio" name="previousCoaching" value="Yes"> Yes</label><label><input type="radio" name="previousCoaching" value="No"> No</label></fieldset>
+              <label class="field field-full">Previous coaching details <span>Optional</span><textarea name="previousCoachingDetails" rows="3"></textarea></label>
+              <fieldset class="field choice-field field-full"><legend>Are you part of a cricket team? <span>Optional</span></legend><label><input type="radio" name="cricketTeam" value="Yes"> Yes</label><label><input type="radio" name="cricketTeam" value="No"> No</label></fieldset>
+              <label class="field field-full">Cricket team details <span>Optional</span><textarea name="cricketTeamDetails" rows="3"></textarea></label>
+              <label class="field field-full">Medical conditions <span>Optional</span><textarea name="medicalConditions" rows="3" placeholder="Dummy information only — illness, injury, surgery, or ongoing treatment"></textarea></label>
+              <label class="field field-full">Address <span>Optional</span><textarea name="address" rows="3"></textarea></label>
+            </div>
+          </section>
+
+          <section class="form-section" aria-labelledby="section-parent">
+            <div class="form-section-heading"><span>03</span><div><h2 id="section-parent">Parents / guardians</h2><p>Combined fields preserve the wording of the source form.</p></div></div>
+            <div class="field-grid">
+              <label class="field field-full">Fathers Name &amp; Occupation <span>Optional</span><input name="fatherNameOccupation" type="text" autocomplete="off"></label>
+              <label class="field field-full">Mothers Name &amp; Occupation <span>Optional</span><input name="motherNameOccupation" type="text" autocomplete="off"></label>
+            </div>
+          </section>
+
+          <section class="form-section" aria-labelledby="section-documents">
+            <div class="form-section-heading"><span>04</span><div><h2 id="section-documents">Local document selection</h2><p>One JPG, JPEG, PNG, or PDF file per category, up to 10 MB. Use sample files only; nothing is uploaded.</p></div></div>
+            <div class="upload-grid">
+              <div class="upload-card" data-upload-card="photo">
+                <span class="upload-icon" aria-hidden="true">01</span><h3>Applicant photo</h3><p>Optional · JPG, PNG or PDF · max 10 MB</p>
+                <label class="button button-small">Choose file<input class="visually-hidden file-input" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-key="photo" aria-label="Choose applicant photo"></label>
+                <div class="file-preview" data-file-preview="photo" aria-live="polite"></div>
+              </div>
+              <div class="upload-card" data-upload-card="passport">
+                <span class="upload-icon" aria-hidden="true">02</span><h3>Passport copy</h3><p>Optional · JPG, PNG or PDF · max 10 MB</p>
+                <label class="button button-small">Choose file<input class="visually-hidden file-input" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-key="passport" aria-label="Choose passport copy"></label>
+                <div class="file-preview" data-file-preview="passport" aria-live="polite"></div>
+              </div>
+              <div class="upload-card" data-upload-card="eidFront">
+                <span class="upload-icon" aria-hidden="true">03</span><h3>Emirates ID — Front</h3><p>Optional · JPG, PNG or PDF · max 10 MB</p>
+                <label class="button button-small">Choose file<input class="visually-hidden file-input" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-key="eidFront" aria-label="Choose Emirates ID front"></label>
+                <div class="file-preview" data-file-preview="eidFront" aria-live="polite"></div>
+              </div>
+              <div class="upload-card" data-upload-card="eidBack">
+                <span class="upload-icon" aria-hidden="true">04</span><h3>Emirates ID — Back</h3><p>Optional · JPG, PNG or PDF · max 10 MB</p>
+                <label class="button button-small">Choose file<input class="visually-hidden file-input" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-key="eidBack" aria-label="Choose Emirates ID back"></label>
+                <div class="file-preview" data-file-preview="eidBack" aria-live="polite"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="form-section" aria-labelledby="section-acknowledgment">
+            <div class="form-section-heading"><span>05</span><div><h2 id="section-acknowledgment">Acknowledgment</h2><p>Draft transcription from the supplied paper form.</p></div></div>
+            <div class="pending-copy" role="note"><strong>Pending legal approval</strong><p>The wording below is transcribed from the supplied image for prototype review. It is not represented as approved legal copy.</p></div>
+            <details class="terms-disclosure" open>
+              <summary><span>View draft terms</span><small>29 terms + disclaimer</small></summary>
+              <div class="terms-copy" aria-labelledby="terms-title">
+              <h3 id="terms-title">Peak Sports Academy (PSA) — Terms &amp; Conditions</h3>
+              <p>By enrolling in any Peak Sports Academy course, you agree to the following terms and conditions:</p>
+              <ol>
+                <li>The academy caters to players aged 4 and above, aiming to improve general sports abilities and cricket skills.</li>
+                <li>No refund for missed sessions unless due to PSA. Make-up sessions or refunds will apply in such cases.</li>
+                <li>While fully insured, individuals may choose to take private insurance.</li>
+                <li>PSA is not liable for events beyond its control (e.g., natural disasters, strikes).</li>
+                <li>Wearing the official PSA uniform is mandatory for training, matches, and activities.</li>
+                <li>PSA reserves the right to deny coaching in exceptional cases.</li>
+                <li>PSA is not responsible for injury, property loss, or damage during sessions.</li>
+                <li>Sessions are typically 1.5 hours, adjusted based on age and facility availability.</li>
+                <li>Parents/children must bring proper footwear and equipment.</li>
+                <li>Group placement is based on age, ability, and availability.</li>
+                <li>All fees must be paid in advance. No refunds for absences.</li>
+                <li>Sessions and venues may change due to weather or other factors.</li>
+                <li>Physical fitness of participants is the responsibility of the parent/guardian.</li>
+                <li>PSA may arrange medical treatment in emergencies unless notified otherwise.</li>
+                <li>PSA reserves the right to remove disruptive or unsafe participants without refund.</li>
+                <li>Enrollment is on a first-come, first-served basis. Waitlist applies if full.</li>
+                <li>Parents/guardians must avoid interfering in sessions.</li>
+                <li>Photo/video analysis may be used. Media use is authorized for training/promotion.</li>
+                <li>Participants may not use Academy content for commercial purposes.</li>
+                <li>Recording is not allowed unless approved and for personal, non-commercial use.</li>
+                <li>PSA programs follow the laws of Abu Dhabi and UAE. Participants must comply with all regulations.</li>
+                <li>These terms form the full agreement and are legally binding.</li>
+                <li>Fees cover training and jersey only. Additional costs (transport, gear, food, tours) are extra.</li>
+                <li>Transport is provided with fixed timings. Delays may lead to missed sessions.</li>
+                <li>Children must eat at least 1 hour before training. Water is mandatory; junk food/fizzy drinks are discouraged.</li>
+                <li>PSA does not guarantee selection into teams or matches. Final team decisions are made by coaches.</li>
+                <li>Parents may discuss progress but must avoid interference or criticism during sessions.</li>
+                <li>Quality audits will be conducted for regular feedback.</li>
+                <li>Re-registration is required if participation lapses for more than 3 months.</li>
+              </ol>
+              <div class="terms-disclaimer">
+                <h4>Disclaimer</h4>
+                <strong>NO LIABILITY / DAMAGE / LOSS CLAIM(S) DECLARATION:</strong>
+                <p>I/We, the undersigned parent/guardian, declare that we will not make any compensation, damage or any kind of claims, or proceed with any legal action against Peak Sports Academy, its associates, subsidiaries, support team, facility providers, tour organizers, or facilitators for any injuries, damages, loss of life, or property arising due to direct or indirect negligence, non-safety measures, or any controversy-related issues.</p>
+              </div>
+                <div class="terms-acknowledgment"><strong>Acknowledgment:</strong><p>I/We agree to the above terms &amp; conditions of Peak Sports Academy.</p></div>
+              </div>
+            </details>
+            <div class="field-grid">
+              <label class="check-field field-full"><input type="checkbox" name="acknowledgment" value="Acknowledged"><span>I acknowledge that I have read the draft terms above. <small>Optional · pending legal approval</small></span></label>
+              <label class="field">Date <span>Editable default</span><input name="acknowledgmentDate" type="date"><small>Defaults to today on this device. You can change or clear it.</small></label>
+              <label class="field">Time <span>Editable default</span><input name="acknowledgmentTime" type="time"><small>Defaults to the current local time. You can change or clear it.</small></label>
+              <label class="field field-full">Typed full name / signature <span>Optional</span><input name="signatureName" type="text" autocomplete="name"><small>A typed name represents the signature in this prototype; no drawn signature is collected.</small></label>
+            </div>
+          </section>
+
+          <div class="form-submit-bar">
+            <div><strong>Ready to create a test record?</strong><p>Blank and partial submissions are allowed.</p></div>
+            <button class="button button-primary" id="submit-registration" type="submit">Submit test registration <span aria-hidden="true">→</span></button>
+          </div>
+          <p class="form-status" id="registration-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="page" id="page-confirmation" data-page="confirmation" hidden>
+      <div class="confirmation-shell shell">
+        <div class="confirmation-mark" aria-hidden="true">✓</div>
+        <p class="eyebrow"><span>Test receipt</span> Registration saved in this browser</p>
+        <h1>Your prototype record is ready.</h1>
+        <p id="confirmation-message">This is not an enrollment approval. Sign in to the demo Admin area to review the saved test record.</p>
+        <div class="reference-card"><span>Record reference</span><strong id="confirmation-reference">PSA-DEMO-001</strong></div>
+        <div class="confirmation-actions">
+          <a class="button button-primary" href="#login" data-route="login">Review in Admin <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#register" data-route="register">Create another record</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="page auth-page" id="page-login" data-page="login" hidden>
+      <div class="auth-shell shell">
+        <div class="auth-visual">
+          <img src="assets/huddle.webp" alt="A coach speaking with young cricket players">
+          <div class="auth-visual-copy"><span>Demo access</span><strong>Review registrations with a simple prototype login.</strong></div>
+        </div>
+        <div class="auth-card">
+          <img class="auth-logo" src="assets/psa-logo.png" alt="">
+          <p class="eyebrow"><span>Admin</span> Demonstration only</p>
+          <h1>Welcome back.</h1>
+          <p>Use the prototype credentials below. This is not production authentication.</p>
+          <div class="credential-hint"><span>Username <strong>admin</strong></span><span>Password <strong>admin</strong></span></div>
+          <form id="login-form" novalidate>
+            <label class="field">Username<input id="username" name="username" type="text" autocomplete="off"></label>
+            <label class="field">Password<input id="password" name="password" type="password" autocomplete="off"></label>
+            <p class="login-error" id="login-error" role="alert"></p>
+            <button class="button button-primary button-full" type="submit">Enter Admin <span aria-hidden="true">→</span></button>
+          </form>
+          <p class="session-note">Login state ends on refresh. Test records remain until an Admin resets them.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page admin-page" id="page-admin" data-page="admin" hidden>
+      <div class="admin-shell shell">
+        <header class="admin-header">
+          <div><p class="eyebrow"><span>Admin</span> Full record management</p><h1>Registrations</h1><p id="record-summary">0 test records saved in this browser</p></div>
+          <div class="admin-actions">
+            <button class="button button-danger-outline" type="button" id="reset-data-button">Reset test data</button>
+            <button class="button button-secondary" type="button" id="logout-button">Log out</button>
+          </div>
+        </header>
+        <div class="admin-notice" role="note"><strong>Browser-only test data</strong><span>Admin can edit or delete any test registration. Records persist until removed or reset; selected document contents are never retained.</span></div>
+        <div class="reset-panel" id="reset-panel" role="group" aria-labelledby="reset-panel-title" hidden>
+          <div><strong id="reset-panel-title">Reset all test registrations?</strong><p id="reset-panel-message">This removes every saved test record from this browser. This action cannot be undone.</p></div>
+          <div class="reset-panel-actions">
+            <button class="button button-secondary" type="button" id="cancel-reset-button">Cancel</button>
+            <button class="button button-danger" type="button" id="confirm-reset-button">Yes, reset all</button>
+          </div>
+          <p id="reset-status" class="reset-status" role="alert"></p>
+        </div>
+        <div id="admin-list"></div>
+      </div>
+    </section>
+
+    <section class="page admin-page" id="page-admin-detail" data-page="admin-detail" hidden>
+      <div class="admin-shell shell">
+        <button class="back-button" type="button" data-route="admin"><span aria-hidden="true">←</span> Back to registrations</button>
+        <div id="admin-detail"></div>
+      </div>
+    </section>
+
+    <section class="page admin-page" id="page-admin-edit" data-page="admin-edit" hidden>
+      <div class="admin-shell admin-edit-shell shell">
+        <button class="back-button" type="button" id="cancel-admin-edit"><span aria-hidden="true">←</span> Cancel editing</button>
+        <div id="admin-edit"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><img src="assets/psa-logo.png" alt="Peak Sports Academy"><p>Local client-review prototype.</p></div>
+      <div><span>Navigate</span><a href="#programmes" data-route="programmes">Programmes</a><a href="#register" data-route="register">Registration</a><a href="#login" data-route="login">Admin Login</a></div>
+      <div><span>Current venue</span><p>Abu Dhabi University Ground<br>Dreams Cricket Ground<br>Near Mahawi, Al Ain Road</p></div>
+    </div>
+    <div class="shell footer-bottom"><span>Peak Sports Academy</span><span>Prototype · Not a live enrollment service</span></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
