@@ -344,7 +344,7 @@
       navigate("admin");
     } else {
       signedIn = false;
-      error.textContent = "Username or password is incorrect. Use admin / admin for this prototype.";
+      error.textContent = "Username or password is incorrect.";
       qs("#username").focus();
     }
   }
